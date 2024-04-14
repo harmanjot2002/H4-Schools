@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# H4-Schools - Content Management System 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction:
 
-## Available Scripts
+Content Management System allows users to access an extensive library of tutorials, examples, and resources for HTML, CSS, JavaScript, and more. It empowers developers and learners to easily explore a user-friendly interface with advanced filtering capabilities and responsive design in this CMS project.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+**-Splash Screen:** Engage users with an enticing splash screen before landing on the home page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**-Live Classes:** Conduct interactive live classes powered by Zego Cloud for real-time engagement.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**-Email Integration:** Utilize EmailJS to share details with the admin when users wish to connect.
 
-### `npm test`
+**-Swiper.js Carousal:** Enhance user experience with a carousel-like effect using Swiper.js.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**-OpenAI Chatbot:** Implement chatbot features using the OpenAI API for an interactive learning environment.
 
-### `npm run build`
+**-Vercel Deployment:** Seamlessly deploy Byte Learn on the Vercel platform for efficient hosting.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**-MongoDB Authentication:** Secure user login and registration functionalities using MongoDB.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Frontend Dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**-@zegocloud/zego-uikit-prebuilt:** Prebuilt UI components for an enhanced user interface.
 
-### `npm run eject`
+**-axios:** HTTP client for making requests to the backend.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**-react, react-dom:** Core libraries for building React applications.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**-react-hot-toast:** Toast notifications for React applications.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**-react-icons:** Library for including icons in React applications.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**-react-router-dom:** Routing library for React applications.
 
-## Learn More
+**-Swiper.js Carousal:** Enhance user experience with a carousel-like effect using Swiper.js.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Backend Dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**-cors:** Middleware for handling Cross-Origin Resource Sharing.
 
-### Code Splitting
+**-dotenv:** Library for loading environment variables from a .env file.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**-express:** Web application framework for Node.js.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**-mongoose:** MongoDB object modeling for Node.js.
+**-nodemon:** Utility for monitoring changes in the application and automatically restarting the server.
